@@ -10,7 +10,7 @@ class Zabbix:
         return is_error, changed, result
 
     def unlink_template(self):
-        result = "{} unlinked".format(self.hostname)
+        result = "{} is unlinked".format(self.hostname)
         changed = True
         is_error = False
         return is_error, changed, result
